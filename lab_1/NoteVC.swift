@@ -1,7 +1,4 @@
 //
-//  NoteViewController.swift
-//  lab_1
-//
 //  Created by Владислав Якубец on 26.11.2020.
 //
 
