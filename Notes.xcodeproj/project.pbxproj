@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		CB09386225703BB0002A8F94 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
 		CB09386625704B97002A8F94 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CB10A109256FFE5500BFD364 /* lab_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB10A109256FFE5500BFD364 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB10A10C256FFE5500BFD364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB10A10E256FFE5500BFD364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB10A110256FFE5500BFD364 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		CB10A100256FFE5500BFD364 = {
 			isa = PBXGroup;
 			children = (
-				CB10A10B256FFE5500BFD364 /* lab_1 */,
+				CB10A10B256FFE5500BFD364 /* Notes */,
 				CB10A10A256FFE5500BFD364 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		CB10A10A256FFE5500BFD364 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB10A109256FFE5500BFD364 /* lab_1.app */,
+				CB10A109256FFE5500BFD364 /* Notes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB10A10B256FFE5500BFD364 /* lab_1 */ = {
+		CB10A10B256FFE5500BFD364 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
 				CB10A10C256FFE5500BFD364 /* AppDelegate.swift */,
@@ -82,15 +82,15 @@
 				CB09386625704B97002A8F94 /* Main.storyboard */,
 				CB6A9D6B257178F600BCC019 /* ColorPickerVC.swift */,
 			);
-			path = lab_1;
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB10A108256FFE5500BFD364 /* lab_1 */ = {
+		CB10A108256FFE5500BFD364 /* Notes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB10A120256FFE5600BFD364 /* Build configuration list for PBXNativeTarget "lab_1" */;
+			buildConfigurationList = CB10A120256FFE5600BFD364 /* Build configuration list for PBXNativeTarget "Notes" */;
 			buildPhases = (
 				CB10A105256FFE5500BFD364 /* Sources */,
 				CB10A106256FFE5500BFD364 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = lab_1;
+			name = Notes;
 			productName = lab_1;
-			productReference = CB10A109256FFE5500BFD364 /* lab_1.app */;
+			productReference = CB10A109256FFE5500BFD364 /* Notes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB10A104256FFE5500BFD364 /* Build configuration list for PBXProject "lab_1" */;
+			buildConfigurationList = CB10A104256FFE5500BFD364 /* Build configuration list for PBXProject "Notes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB10A108256FFE5500BFD364 /* lab_1 */,
+				CB10A108256FFE5500BFD364 /* Notes */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = lab_1/Info.plist;
+				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.lab-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,12 +323,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = lab_1/Info.plist;
+				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.lab-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB10A104256FFE5500BFD364 /* Build configuration list for PBXProject "lab_1" */ = {
+		CB10A104256FFE5500BFD364 /* Build configuration list for PBXProject "Notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB10A11E256FFE5600BFD364 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB10A120256FFE5600BFD364 /* Build configuration list for PBXNativeTarget "lab_1" */ = {
+		CB10A120256FFE5600BFD364 /* Build configuration list for PBXNativeTarget "Notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB10A121256FFE5600BFD364 /* Debug */,
